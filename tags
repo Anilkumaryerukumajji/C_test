@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Address	struct1.c	/^	char Address[1000];$/;"	m	struct:student	file:
+Address	structarray.c	/^	char Address[1000];$/;"	m	struct:student	file:
+Address	structarray1.c	/^	char Address[1000];$/;"	m	struct:student	file:
+Address	structarray2.c	/^	char Address[1000];$/;"	m	struct:student	file:
+Address	structpointer1.c	/^	char Address[1000];$/;"	m	struct:student	file:
+BLUE	enum.c	/^{RED,BLUE,WHITE,Maroon=10};$/;"	e	enum:color	file:
+Maroon	enum.c	/^{RED,BLUE,WHITE,Maroon=10};$/;"	e	enum:color	file:
+Name	struct1.c	/^	char Name[100];$/;"	m	struct:student	file:
+Name	structarray.c	/^	char Name[100];$/;"	m	struct:student	file:
+Name	structarray1.c	/^	char Name[100];$/;"	m	struct:student	file:
+Name	structarray2.c	/^	char Name[100];$/;"	m	struct:student	file:
+Name	structpointer1.c	/^	char Name[100];$/;"	m	struct:student	file:
+RED	enum.c	/^{RED,BLUE,WHITE,Maroon=10};$/;"	e	enum:color	file:
+RollNo	struct.c	/^	int RollNo;$/;"	m	struct:student	file:
+RollNo	struct1.c	/^	int RollNo;$/;"	m	struct:student	file:
+RollNo	structarray.c	/^	int RollNo;$/;"	m	struct:student	file:
+RollNo	structarray1.c	/^	int RollNo;$/;"	m	struct:student	file:
+RollNo	structarray2.c	/^	int RollNo;$/;"	m	struct:student	file:
+RollNo	structpointer.c	/^	int RollNo;$/;"	m	struct:student	file:
+RollNo	structpointer1.c	/^	int RollNo;$/;"	m	struct:student	file:
+WHITE	enum.c	/^{RED,BLUE,WHITE,Maroon=10};$/;"	e	enum:color	file:
+a	str.c	/^	int a;$/;"	m	struct:abc	file:
+a	trail1.c	/^	int a;$/;"	m	struct:abc	file:
+a	trail2.c	/^	int a;$/;"	m	struct:abc	file:
+abc	azx.c	/^union abc$/;"	u	file:
+abc	str.c	/^struct abc$/;"	s	file:
+abc	trail1.c	/^struct abc$/;"	s	file:
+abc	trail2.c	/^struct abc$/;"	s	file:
+add	add.c	/^int add(int a, int b)$/;"	f
+address	struct.c	/^	char address[2000];$/;"	m	struct:student	file:
+address	structpointer.c	/^	char address[1000];$/;"	m	struct:student	file:
+b	str.c	/^	char b;$/;"	m	struct:abc	file:
+b	trail1.c	/^	int b;$/;"	m	struct:abc	file:
+b	trail2.c	/^	int b;$/;"	m	struct:abc	file:
+c	str.c	/^	double c;$/;"	m	struct:abc	file:
+c	str.c	/^}c;$/;"	v	typeref:struct:abc
+c	trail1.c	/^	struct abc *c;\/\/self referential structures$/;"	m	struct:abc	typeref:struct:abc::abc	file:
+c	trail2.c	/^	struct abc *c;\/\/self referential structures$/;"	m	struct:abc	typeref:struct:abc::abc	file:
+color	enum.c	/^enum color$/;"	g	file:
+createDB	structarray2.c	/^struct student *createDB()$/;"	f
+main	1.c	/^int main()$/;"	f
+main	add.c	/^int main()$/;"	f
+main	azx.c	/^main ()$/;"	f
+main	enum.c	/^int main()$/;"	f
+main	str.c	/^int main()$/;"	f
+main	str1.c	/^main()$/;"	f
+main	struct.c	/^ int main ()$/;"	f
+main	struct1.c	/^int main()$/;"	f
+main	structarray.c	/^int main()$/;"	f
+main	structarray1.c	/^int main()$/;"	f
+main	structarray2.c	/^int main()$/;"	f
+main	structpointer.c	/^int main()$/;"	f
+main	structpointer1.c	/^int main()$/;"	f
+main	trail1.c	/^main ()$/;"	f
+main	trail2.c	/^main ()$/;"	f
+name	struct.c	/^	char name[1000];$/;"	m	struct:student	file:
+name	structpointer.c	/^	char name[1000];$/;"	m	struct:student	file:
+nstudents	structarray2.c	/^int nstudents=0;$/;"	v
+printstructure	structarray1.c	/^void printstructure(struct student *a, int n)$/;"	f
+printstructure	structarray2.c	/^void printstructure(struct student *a)$/;"	f
+student	struct.c	/^struct student$/;"	s	file:
+student	struct1.c	/^struct student$/;"	s	file:
+student	structarray.c	/^struct student$/;"	s	file:
+student	structarray1.c	/^struct student$/;"	s	file:
+student	structarray2.c	/^struct student$/;"	s	file:
+student	structpointer.c	/^struct student$/;"	s	file:
+student	structpointer1.c	/^struct student$/;"	s	file:
